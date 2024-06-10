@@ -1,0 +1,63 @@
+#footer {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .stat-box5 img {
+    width: 100px;
+  }
+  
+  .stat-box5 a {
+    text-decoration: none;
+    color: rgb(143, 143, 143);
+    transition: 0.5s;
+  }
+  .stat-box5 p{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  }
+  
+  .stat-box5 a:hover {
+    color: #000000;
+  }
+  
+  .stat-box5 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .border-box {
+    padding-top: 150px;
+    
+  }
+  
+  .asad {
+    text-decoration: none;
+    color: rgb(187, 187, 187);
+    transition: 0.5s;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  
+  .asad:hover {
+    color: #000000;
+  }
+  
+  hr {
+    background-color: #fff;
+  }
+  
+  .social-icons {
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+  
+  .social-icons a {
+    text-decoration: none;
+    color: rgb(110, 110, 110);
+    padding:15px;
+    
+  }
+  

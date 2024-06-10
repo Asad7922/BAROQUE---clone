@@ -1,0 +1,169 @@
+------------purchase section-------------------------- #purchase {
+    padding-top: 20px;
+}
+
+
+.img-box5 img {
+
+    margin-left: 40px;
+}
+
+.img-box6 img {
+    padding-top: 50px;
+    margin-top: 40px;
+}
+
+.text-box34 {
+    padding-left: 50px;
+    margin-top: 100px;
+
+}
+
+.text-box34 p {
+    color: rgb(128, 128, 128);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.text-box34 h5 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.type-box67 {
+    padding-left: 50px;
+}
+
+.type-box67 h5 {
+    border: 1px solid black;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.cart-text h6 {
+    border: 1px solid black;
+    height: 25px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.type-box67 h6 {
+    border: 1px solid black;
+    height: 40px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-button {
+    padding-top: 20px;
+}
+
+.btn43-45 {
+    text-decoration: none;
+    padding: 10px 120px;
+    background: rgb(0, 0, 0);
+    outline: none !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.btn-46 {
+    border: 2px solid rgb(0, 0, 0);
+    z-index: 1;
+    color: rgb(255, 255, 255);
+}
+
+.btn-46:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    background-color: rgb(255, 255, 255);
+    transition: all 0.3s ease;
+}
+
+.btn-46:hover {
+    color: rgb(0, 0, 0);
+
+}
+
+.btn-46:hover:after {
+    left: auto;
+    right: 0;
+    width: 100%;
+}
+
+.btn-46:active {
+    top: 2px;
+}
+
+
+/*--------------squad img section------------*/
+#squad-img {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container h1 {
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.image-container img:nth-child(2) {
+    display: none;
+}
+
+.image-container:hover img:nth-child(1) {
+    display: none;
+}
+
+.image-container:hover img:nth-child(2) {
+    display: block;
+}
+
+#products .row {
+    padding: 20px 0;
+}
+
+.text-boximg {
+    padding-top: 30px;
+}
+
+.text-boximg h5 {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.text-boximg h6 {
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
